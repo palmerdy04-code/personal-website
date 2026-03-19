@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: dylan-palmer-website
+    runtime: python
+    plan: free
+    startCommand: python3 server.py
+    healthCheckPath: /
+    envVars:
+      - key: STRAVA_CLIENT_ID
+        sync: false
+      - key: STRAVA_CLIENT_SECRET
+        sync: false
+      - key: STRAVA_REDIRECT_URI
+        sync: false
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: DATA_DIR
+        value: /var/data
+    disk:
+      name: website-data
+      mountPath: /var/data
+      sizeGB: 1

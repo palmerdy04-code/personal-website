@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+.strava_tokens.json
+.strava_dashboard_cache.json
+.env
