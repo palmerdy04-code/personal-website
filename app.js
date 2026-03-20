@@ -72,8 +72,8 @@ const manualPrs = [
   { label: "1/2 mile", time: "2:20", note: "Current personal best" },
   { label: "1 mile", time: "5:35", note: "Current personal best" },
   { label: "2 mile", time: "11:10", note: "Current personal best" },
-  { label: "5k", time: "19:40", note: "Current personal best" },
-  { label: "10k", time: "39:50", note: "Current personal best" },
+  { label: "5k", time: "19:30", note: "Current personal best" },
+  { label: "10k", time: "38:41", note: "Current personal best" },
   { label: "Half marathon", time: "1:32:00", note: "Current personal best" },
   { label: "Marathon", time: "Not attempted", note: "Still on the horizon" },
 ];
@@ -85,12 +85,12 @@ const travelLocations = [
     summary: "A city trip shaped by old architecture, constant movement, and the kind of visit that feels personal because it was built around seeing a friend.",
     details: "London stands out as one of those places where every neighborhood seems to carry its own rhythm. Visiting a friend there made the trip feel more grounded than a typical sightseeing stop, so the city comes through as both memorable and lived-in instead of just iconic.",
     photos: [
-      "./photos/travel/london1.jpeg",
-      "./photos/travel/london2.jpeg",
-      "./photos/travel/london3.jpeg",
-      "./photos/travel/ondon4.jpeg",
-      "./photos/travel/london5.jpeg",
-      "./photos/travel/london6.jpeg",
+      "./photos/Travel/london1.jpeg",
+      "./photos/Travel/london2.jpeg",
+      "./photos/Travel/london3.jpeg",
+      "./photos/Travel/ondon4.jpeg",
+      "./photos/Travel/london5.jpeg",
+      "./photos/Travel/london6.jpeg",
     ],
   },
   {
@@ -99,16 +99,16 @@ const travelLocations = [
     summary: "A bright, high-energy stop tied to a soccer trip, with the kind of atmosphere that makes the city feel active from the moment you arrive.",
     details: "Spain carries a different kind of travel memory because the trip had its own purpose and momentum. Between the soccer connection, the architecture, and the street-level energy, Barcelona feels less like a passive vacation and more like a place experienced in motion.",
     photos: [
-      "./photos/travel/spain1.JPG",
-      "./photos/travel/spain2.JPG",
-      "./photos/travel/spain3.JPG",
-      "./photos/travel/spain4.JPG",
-      "./photos/travel/spain5.JPG",
-      "./photos/travel/spain6.JPG",
-      "./photos/travel/spain7.JPG",
-      "./photos/travel/spain8.jpg",
-      "./photos/travel/spain9.JPG",
-      "./photos/travel/spain10.JPG",
+      "./photos/Travel/spain1.JPG",
+      "./photos/Travel/spain2.JPG",
+      "./photos/Travel/spain3.JPG",
+      "./photos/Travel/spain4.JPG",
+      "./photos/Travel/spain5.JPG",
+      "./photos/Travel/spain6.JPG",
+      "./photos/Travel/spain7.JPG",
+      "./photos/Travel/spain8.jpg",
+      "./photos/Travel/spain9.JPG",
+      "./photos/Travel/spain10.JPG",
     ],
   },
   {
@@ -117,15 +117,15 @@ const travelLocations = [
     summary: "A foundational chapter where undergraduate life, friendships, and the first real academic momentum all came together.",
     details: "Syracuse matters because it holds your undergraduate years, which gives it a different weight than a travel destination. It is tied to routines, growth, campus life, and the stretch of time where a lot of your future direction started to take shape.",
     photos: [
-      "./photos/travel/syr1.jpeg",
-      "./photos/travel/syr2.JPG",
-      "./photos/travel/syr3.jpeg",
-      "./photos/travel/syr4.jpeg",
-      "./photos/travel/syr5.jpeg",
-      "./photos/travel/syr6.jpg",
-      "./photos/travel/syr7.jpeg",
-      "./photos/travel/syr8.JPG",
-      "./photos/travel/syr9.JPG",
+      "./photos/Travel/syr1.jpeg",
+      "./photos/Travel/syr2.JPG",
+      "./photos/Travel/syr3.jpeg",
+      "./photos/Travel/syr4.jpeg",
+      "./photos/Travel/syr5.jpeg",
+      "./photos/Travel/syr6.jpg",
+      "./photos/Travel/syr7.jpeg",
+      "./photos/Travel/syr8.JPG",
+      "./photos/Travel/syr9.JPG",
     ],
   },
   {
@@ -134,12 +134,12 @@ const travelLocations = [
     summary: "Home in the deepest sense, tied to growing up, family routines, and the place everything else branches outward from.",
     details: "Binghamton is not just another point on the map. It is where you grew up, which gives it the kind of meaning built from repetition, familiarity, and history. It represents the grounding place behind the later moves, trips, and chapters that came after it.",
     photos: [
-      "./photos/travel/bing1.jpeg",
-      "./photos/travel/bing2.jpeg",
-      "./photos/travel/ing3.jpeg",
-      "./photos/travel/bing4.jpeg",
-      "./photos/travel/bing5.jpeg",
-      "./photos/travel/bing6.jpeg",
+      "./photos/Travel/bing1.jpeg",
+      "./photos/Travel/bing2.jpeg",
+      "./photos/Travel/ing3.jpeg",
+      "./photos/Travel/bing4.jpeg",
+      "./photos/Travel/bing5.jpeg",
+      "./photos/Travel/bing6.jpeg",
     ],
   },
   {
@@ -148,13 +148,13 @@ const travelLocations = [
     summary: "A trip defined by atmosphere, greenery, and a distinctly different pace from the East Coast cities in my life.",
     details: "Portland stands out for the surrounding landscape as much as the city itself. It has a softer visual mood, a strong sense of place, and the kind of setting that makes even ordinary moments feel scenic.",
     photos: [
-      "./photos/travel/portland1.jpeg",
-      "./photos/travel/portland2.jpeg",
-      "./photos/travel/portland3.jpeg",
-      "./photos/travel/portland4.jpeg",
-      "./photos/travel/portland5.jpeg",
-      "./photos/travel/portland6.jpeg",
-      "./photos/travel/portland7.jpeg",
+      "./photos/Travel/portland1.jpeg",
+      "./photos/Travel/portland2.jpeg",
+      "./photos/Travel/portland3.jpeg",
+      "./photos/Travel/portland4.jpeg",
+      "./photos/Travel/portland5.jpeg",
+      "./photos/Travel/portland6.jpeg",
+      "./photos/Travel/portland7.jpeg",
     ],
   },
   {
@@ -163,13 +163,31 @@ const travelLocations = [
     summary: "The first real move away from home, which makes Orlando feel less like a trip and more like an early leap into independence.",
     details: "Orlando marks an important transition because it was your first move away from home. That gives the city a different kind of significance, tied to starting fresh, learning a new rhythm, and building confidence in a place that felt distinctly separate from where you grew up.",
     photos: [
-      "./photos/travel/orlando1.jpeg",
-      "./photos/travel/orlando2.jpeg",
-      "./photos/travel/orlando3.jpeg",
-      "./photos/travel/orlando4.jpeg",
-      "./photos/travel/orlando5.jpeg",
-      "./photos/travel/orlando6.jpeg",
-      "./photos/travel/orlando7.JPG",
+      "./photos/Travel/orlando1.jpeg",
+      "./photos/Travel/orlando2.jpeg",
+      "./photos/Travel/orlando3.jpeg",
+      "./photos/Travel/orlando4.jpeg",
+      "./photos/Travel/orlando5.jpeg",
+      "./photos/Travel/orlando6.jpeg",
+      "./photos/Travel/orlando7.JPG",
+    ],
+  },
+  {
+    title: "DMV Area",
+    type: "Place I lived",
+    summary: "The chapter tied to grad school at Johns Hopkins, where life has been shaped by academic focus, a new rhythm, and the broader energy of the D.C., Maryland, and Virginia area.",
+    details: "The DMV belongs here because it reflects your current season of life. Living there for graduate school at Johns Hopkins gives the place a different kind of significance than a trip. It is connected to daily routine, long-term goals, and the feeling of building a chapter around work, study, and the life taking shape around both.",
+    photos: [
+      "./photos/Travel/DMV1.png",
+      "./photos/Travel/DMV2.jpeg",
+      "./photos/Travel/DMV3.jpeg",
+      "./photos/Travel/DMV4.png",
+      "./photos/Travel/DMV5.png",
+      "./photos/Travel/DMV6.png",
+      "./photos/Travel/DMV7.png",
+      "./photos/Travel/DMV8.png",
+      "./photos/Travel/DMV9.jpeg",
+      "./photos/Travel/DMV10.png",
     ],
   },
   {
@@ -178,11 +196,11 @@ const travelLocations = [
     summary: "The most obviously restorative stop in the group, built around water, warmth, and a completely different tempo.",
     details: "Barbados belongs here because it adds the kind of travel memory that feels tied to light, coastline, and being fully out of your normal routine. It is a place that reads immediately as an escape.",
     photos: [
-      "./photos/travel/barbados1.jpeg",
-      "./photos/travel/barbados2.jpeg",
-      "./photos/travel/barbados3.jpeg",
-      "./photos/travel/arbados4.jpeg",
-      "./photos/travel/barbados5.jpeg",
+      "./photos/Travel/barbados1.jpeg",
+      "./photos/Travel/barbados2.jpeg",
+      "./photos/Travel/barbados3.jpeg",
+      "./photos/Travel/arbados4.jpeg",
+      "./photos/Travel/barbados5.jpeg",
     ],
   },
   {
@@ -191,10 +209,10 @@ const travelLocations = [
     summary: "A place that matters because it is connected to family, which gives it a different feeling from both travel and places you have lived.",
     details: "Knoxville belongs in this section because family changes the meaning of a place. It is not just about scenery or a single trip memory. It is tied to connection, return visits, and the kind of familiarity that builds from people as much as geography.",
     photos: [
-      "./photos/travel/knox1.jpeg",
-      "./photos/travel/knox2.JPEG",
-      "./photos/travel/knox3.JPG",
-      "./photos/travel/knox4.jpeg",
+      "./photos/Travel/knox1.jpeg",
+      "./photos/Travel/knox2.JPEG",
+      "./photos/Travel/knox3.JPG",
+      "./photos/Travel/knox4.jpeg",
     ],
   },
 ];
@@ -1159,9 +1177,9 @@ const sections = [
     eyebrow: "Strava Dashboard",
     title: "Training data with more shape and context.",
     intro:
-      "This section now supports a live Strava connection so it can show weekly totals, yearly progress, personal best efforts, and actual routes you have run instead of a static placeholder.",
+      "This section uses a saved Strava snapshot so it can still show weekly totals, yearly progress, personal best efforts, and actual routes without needing a live backend on the public site.",
     highlights: [
-      "Live weekly totals and effort counts.",
+      "Saved weekly totals and effort counts.",
       "Year-to-date mileage, time, and elevation.",
       "PR efforts across key race distances.",
       "Route cards based on real Strava activity maps.",
@@ -1170,12 +1188,12 @@ const sections = [
       {
         title: "What It Pulls In",
         body:
-          "The dashboard is wired to Strava for recent weekly training, yearly totals, route maps, and a PR table based on your recorded efforts across common race distances.",
+          "The dashboard reads from an exported Strava snapshot that includes recent weekly training, yearly totals, route maps, and the rest of the running data shown here.",
       },
       {
         title: "How It Works",
         body:
-          "Because Strava uses OAuth, this part of the site now expects to be served through the new Python backend instead of a plain static file server. Once connected, the running tab can refresh real data for just your account.",
+          "Because Strava uses OAuth, the data is refreshed locally and saved into a static JSON file before deployment. That keeps the public site simple while preserving the same dashboard feel.",
       },
     ],
     quote:
@@ -1215,6 +1233,13 @@ const sections = [
           "A bright grapefruit tart layered with Italian meringue and sweetcrust pastry, then finished with candied peel for a sharper citrus edge.",
       },
       {
+        title: "Cherry Tart",
+        kicker: "Sweet and refreshing pastry",
+        image: "./photos/cherry.png",
+        body:
+          "Fresh cherries top a frangipane filling over cherry coulis, all set inside a sweetcrust pastry for a dessert that lands somewhere between rich and especially bright.",
+      },
+      {
         title: "Peanut Butter Chocolate Cake",
         kicker: "Favorite childhood flavors",
         image: "./photos/PBcake.jpeg",
@@ -1248,6 +1273,13 @@ const sections = [
         image: "./photos/keylime.jpeg",
         body:
           "A key lime filling in a buttery graham cracker crust, built around clean acidity, creamy texture, and the kind of flavor that always feels like summer.",
+      },
+      {
+        title: "Ciabatta Breadsticks",
+        kicker: "Savory bread with a lot going on",
+        image: "./photos/ciabatta.png",
+        body:
+          "Classic Italian ciabatta worked into breadsticks with green olives, Stilton, white cheddar, onions, and prosciutto baked in for a more savory, shareable kind of bake.",
       },
     ],
     quote:
@@ -1343,14 +1375,14 @@ const sections = [
 function RunningDashboard() {
   const [state, setState] = useState({ loading: true, payload: null, error: null });
 
-  const loadDashboard = async (forceRefresh = false) => {
+  const loadDashboard = async () => {
     setState((current) => ({ ...current, loading: true, error: null }));
 
     try {
-      const response = await fetch(`/api/strava/dashboard${forceRefresh ? "?refresh=1" : ""}`);
+      const response = await fetch(`./data/strava-dashboard.json?v=${Date.now()}`);
       const payload = await response.json();
       if (!response.ok) {
-        throw new Error(payload.error || "Unable to load Strava data right now.");
+        throw new Error(payload.error || "Unable to load the saved Strava snapshot right now.");
       }
       setState({ loading: false, payload, error: null });
     } catch (error) {
@@ -1366,9 +1398,9 @@ function RunningDashboard() {
     return html`
       <div className="running-shell">
         <section className="running-connect-panel">
-          <p className="running-kicker">Loading dashboard</p>
-          <h3>Checking Strava connection and pulling your latest running data.</h3>
-          <p>This can take a moment the first time, especially once the site starts building PRs and route cards from your activity history.</p>
+          <p className="running-kicker">Loading running data</p>
+          <h3>Opening the saved Strava snapshot for this site.</h3>
+          <p>This only takes a moment while the page loads the exported dashboard data.</p>
         </section>
       </div>
     `;
@@ -1379,11 +1411,11 @@ function RunningDashboard() {
       <div className="running-shell">
         <section className="running-connect-panel">
           <p className="running-kicker">Something needs attention</p>
-          <h3>The Strava dashboard hit an error.</h3>
+          <h3>The saved Strava dashboard could not be loaded.</h3>
           <p>${state.error}</p>
           <div className="running-actions">
-            <button type="button" className="running-button" onClick=${() => loadDashboard(true)}>
-              Try again
+            <button type="button" className="running-button" onClick=${() => loadDashboard()}>
+              Reload saved data
             </button>
           </div>
         </section>
@@ -1392,40 +1424,6 @@ function RunningDashboard() {
   }
 
   const payload = state.payload;
-  const redirectUri = `${window.location.origin}/auth/strava/callback`;
-
-  if (!payload?.configured) {
-    return html`
-      <div className="running-shell">
-        <section className="running-connect-panel">
-          <p className="running-kicker">One-time setup</p>
-          <h3>Strava is not configured yet.</h3>
-          <p>The backend is ready, but it still needs this site's Strava app credentials before it can connect.</p>
-          <ol className="running-steps">
-            <li>Create a Strava app at strava.com/settings/api.</li>
-            <li>Set the callback to ${redirectUri}.</li>
-            <li>Export STRAVA_CLIENT_ID, STRAVA_CLIENT_SECRET, and STRAVA_REDIRECT_URI in the terminal.</li>
-            <li>Restart the site with python3 server.py.</li>
-          </ol>
-        </section>
-      </div>
-    `;
-  }
-
-  if (!payload.connected) {
-    return html`
-      <div className="running-shell">
-        <section className="running-connect-panel">
-          <p className="running-kicker">Connect Strava</p>
-          <h3>Turn this section into a live training dashboard.</h3>
-          <p>Once connected, this tab will show your weekly totals, current-year progress, PR efforts, and route cards built from runs you have actually logged.</p>
-          <div className="running-actions">
-            <a className="running-button running-button-link" href="/auth/strava/start">Connect my Strava</a>
-          </div>
-        </section>
-      </div>
-    `;
-  }
 
   return html`
     <div className="running-shell">
@@ -1449,9 +1447,12 @@ function RunningDashboard() {
           <div>
             <p className="running-kicker">Weekly Totals</p>
             <h3>Recent training rhythm</h3>
+            ${payload.updated_at
+              ? html`<p>Last exported ${formatCalendarDate(payload.updated_at)}</p>`
+              : null}
           </div>
-          <button type="button" className="running-button running-button-secondary" onClick=${() => loadDashboard(true)}>
-            Refresh data
+          <button type="button" className="running-button running-button-secondary" onClick=${() => loadDashboard()}>
+            Reload snapshot
           </button>
         </div>
         <div className="running-week-grid">

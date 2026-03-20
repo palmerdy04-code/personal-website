@@ -2,6 +2,7 @@
 import json
 import math
 import os
+import sys
 import time
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
@@ -18,6 +19,7 @@ RECENT_RUN_PAGE_LIMIT = 3
 STRAVA_BASE = 'https://www.strava.com'
 STRAVA_API_BASE = 'https://www.strava.com/api/v3'
 ENV_FILE = ROOT / '.env'
+EXPORT_FILE = ROOT / 'data' / 'strava-dashboard.json'
 
 
 def load_env_file(path):
@@ -404,6 +406,12 @@ def build_dashboard(force_refresh=False):
     return payload
 
 
+def export_dashboard(output_path=EXPORT_FILE, force_refresh=False):
+    payload = build_dashboard(force_refresh=force_refresh)
+    save_json(output_path, payload)
+    return payload
+
+
 class WebsiteHandler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
@@ -474,6 +482,15 @@ class WebsiteHandler(SimpleHTTPRequestHandler):
 
 
 def main():
+    if len(sys.argv) > 1 and sys.argv[1] == 'export-strava-data':
+        force_refresh = '--refresh' in sys.argv[2:]
+        payload = export_dashboard(force_refresh=force_refresh)
+        print(
+            f"Exported Strava dashboard snapshot to {EXPORT_FILE} "
+            f"(updated_at: {payload.get('updated_at', 'unknown')})"
+        )
+        return
+
     port = int(env('PORT', '8000'))
     httpd = HTTPServer(('0.0.0.0', port), WebsiteHandler)
     local_url = f'http://localhost:{port}'
