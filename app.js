@@ -1214,7 +1214,7 @@ const sections = [
     ],
     cards: [
       {
-        title: "What I Like Baking",
+        title: "Why I Like Baking",
         body:
           "I am especially drawn to citrus desserts, layered cakes, tarts, and anything that balances strong flavor with careful technique. The best projects usually combine both precision and a little creativity.",
       },
