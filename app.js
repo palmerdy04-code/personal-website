@@ -1261,6 +1261,13 @@ const sections = [
           "Almond sponge soaked with almond syrup, layered with lemon curd, and finished with lemon Swiss meringue buttercream and candied lemon garnish.",
       },
       {
+        title: "Blackberry Pear Caramel Walnut Cake",
+        kicker: "Layer cake with a lot of texture and flavor",
+        image: "./photos/PearCake.png",
+        body:
+          "A spiced walnut cake layered with Swiss meringue buttercream and blackberry buttercream, then finished with caramel drizzle, toasted walnuts, and poached pears for a richer late-season kind of bake.",
+      },
+      {
         title: "Baklava",
         kicker: "Technically challenging and worth the effort",
         image: "./photos/baklava.jpeg",
