@@ -70,9 +70,9 @@ function formatWeekLabel(value) {
 const manualPrs = [
   { label: "1/4 mile", time: "1:05", note: "Current personal best" },
   { label: "1/2 mile", time: "2:20", note: "Current personal best" },
-  { label: "1 mile", time: "5:35", note: "Current personal best" },
+  { label: "1 mile", time: "5:08", note: "Current personal best" },
   { label: "2 mile", time: "11:10", note: "Current personal best" },
-  { label: "5k", time: "19:30", note: "Current personal best" },
+  { label: "5k", time: "18:40", note: "Current personal best" },
   { label: "10k", time: "38:41", note: "Current personal best" },
   { label: "Half marathon", time: "1:32:00", note: "Current personal best" },
   { label: "Marathon", time: "Not attempted", note: "Still on the horizon" },
